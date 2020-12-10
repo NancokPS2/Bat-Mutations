@@ -25,8 +25,8 @@
   {
     "type": "mutation",
     "id": "FLIMSY",
-	"copy-from": "FLIMSY"
-    "category": [ "MOUSE", "ELFA", "BAT" ],
+	"copy-from": "FLIMSY",
+    "category": [ "MOUSE", "ELFA", "BAT" ]
   },
   {
     "type": "mutation",
@@ -53,7 +53,7 @@
     "prereqs": [ "BAT_EARS" ],
     "category": [ "BAT" ],
     "active": true,
-    "starts_active": true,
+    "starts_active": true
   },
   {
     "type": "mutation",
@@ -87,7 +87,7 @@
     "type": "mutation",
     "id": "DEX_UP",
 	"copy-from": "DEX_UP",
-    "category": [ "INSECT", "SLIME", "ALPHA", "BAT" ],
+    "category": [ "INSECT", "SLIME", "ALPHA", "BAT" ]
   },
   {
     "type": "mutation",
@@ -100,7 +100,7 @@
     "id": "PER_UP_4",
 	"copy-from": "PER_UP_4",
     "threshreq": [ "THRESH_BIRD", "THRESH_BAT" ],
-    "category": [ "BIRD", "BAT" ],
+    "category": [ "BIRD", "BAT" ]
   },
   {
     "type": "mutation",
@@ -111,8 +111,8 @@
   {
     "type": "mutation",
     "id": "LIGHT_BONES",
-    "copy-from": "LIGHT_BONES"
-    "category": [ "MOUSE" ],
+    "copy-from": "LIGHT_BONES",
+    "category": [ "MOUSE", "BAT" ]
   },
     {
     "type": "mutation",
@@ -126,7 +126,7 @@
     "id": "WINGS_BAT_MOD",
     "copy-from": "WINGS_BIRD",
 	"description": "You have a pair of fleshy wings under your arms.  Your body is too heavy to be able to fly, but you can use them to slow your descent during a fall, and will not take falling damage under any circumstances. They cause slight encumbrance in your arms.",
-	"encumbrance_always": [ "arm_l", 2 ], [ "arm_r", 2 ] ],
+	"encumbrance_always": [ [ "arm_l", 2 ], [ "arm_r", 2 ] ],
 	"name": { "str": "Bat Wings" },
     "category": [ "BAT" ]
   }
