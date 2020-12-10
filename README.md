@@ -11,4 +11,4 @@ This category shares some of the negatives of the bird category but sticks to th
 - Bat Wings: Same as bird wings, but causes 2 encumbrance on each arm. (the original Bat Wings was renamed to "Deformed Wings".
   
 ## Recipes  
-This only adds a mutagen and a serum that target the bat category, it is learned in the same way as the Beast mutagen/serum.
+This only adds a mutagen and a serum that target the bat category, it is learned in the same way as the Beast mutagen/serum, it has the same costs as the Mouse mutagen/serum.
