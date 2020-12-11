@@ -10,6 +10,7 @@ This category shares some of the negatives of the bird category but sticks to th
 - Bat Ears: Like Rodent Ears, but with twice the hearing power.
 - Echolocation: Re-skin of Antennae due to it's hard coded nature, may be different in the future.
 - Bat Wings: Same as bird wings, but causes 2 encumbrance on each arm. (the original Bat Wings was renamed to "Deformed Wings".
+- Elongated Tongue: Like hummingbird beak, but with a lower eating speed penalty. NOT working for the time being, probably due to humming bird beak being hard coded to the mutation ID
   
 ## Recipes  
 This only adds a mutagen and a serum that target the bat category, it is learned in the same way as the Beast mutagen/serum, it has the same costs as the Mouse mutagen/serum.
