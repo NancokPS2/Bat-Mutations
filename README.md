@@ -1,5 +1,6 @@
 # Bat-Mutations
   A mod for cataclysm which adds a bat mutation category, working as of 0.E-7938
+  There are currently 2 branches available, the main one and another with a pseudo humming bird beak mutation as well as both herbivore and carnivore in the pool.
 
 ## Overview  
  This mutation is centered on poor sight and greatly increased hearing with the added benefit of wings, as well as having a repaint of the Antennae mutation. A good  choice if you want some of the benefits of the bird category but don't want to sacrifice ALL your durability for it.
