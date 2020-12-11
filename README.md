@@ -1,5 +1,5 @@
 # Bat-Mutations
-  A mod for cataclysm which adds a bat mutation category, working as of 0.E-7938
+  A mod for cataclysm which adds a bat mutation category, working as of 0.E-7938  
   There are currently 2 branches available, the main one and another with a pseudo humming bird beak mutation as well as both herbivore and carnivore in the pool.
 
 ## Overview  
