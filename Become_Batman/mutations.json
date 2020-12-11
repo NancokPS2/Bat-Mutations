@@ -110,8 +110,8 @@
   },
     {
     "type": "mutation",
-    "id": "VEGETARIAN",
-    "copy-from": "VEGETARIAN",
+    "id": "HERBIVORE",
+    "copy-from": "HERBIVORE",
 	"category": [ "BAT" ]
   },
   {
