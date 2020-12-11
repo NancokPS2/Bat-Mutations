@@ -108,13 +108,45 @@
     "copy-from": "MYOPIC",
     "category": [ "BEAST", "TROGLOBITE", "BAT" ]
   },
+    {
+    "type": "mutation",
+    "id": "VEGETARIAN",
+    "copy-from": "VEGETARIAN",
+	"category": [ "BAT" ]
+  },
+  {
+    "type": "mutation",
+    "id": "CARNIVORE",
+	"copy-from": "CARNIVORE",
+    "category": [ "LIZARD", "BEAST", "SPIDER", "CHIMERA", "RAPTOR", "FELINE", "BAT" ]
+  },
+  {
+    "type": "mutation",
+    "id": "NECTAR_SUCC",
+    "name": { "str": "Elongated Tongue" },
+    "points": -2,
+    "visibility": 10,
+    "ugliness": 5,
+    "consume_time_modifier": 1.2,
+    "description": "Your tongue and snout have become longer, this lets you suck nectar from flowers but restricts what you can wear in your mouth. Examine the flowers to feed.",
+    "valid": false,
+    "purifiable": false,
+    "types": [ "TEETH", "MUZZLE" ],
+    "cancels": [ "MOUTH_TENTACLES" ],
+    "prereqs": [ "SNOUT" ],
+    "threshreq": [ "THRESH_BAT" ],
+    "category": [ "BAT" ],
+    "active": true,
+    "restricts_gear": [ "mouth" ],
+    "destroys_gear": true
+  },
   {
     "type": "mutation",
     "id": "LIGHT_BONES",
     "copy-from": "LIGHT_BONES",
     "category": [ "MOUSE", "BAT" ]
   },
-    {
+  {
     "type": "mutation",
     "id": "BENDY1",
     "copy-from": "BENDY1",
