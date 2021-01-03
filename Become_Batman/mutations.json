@@ -32,7 +32,7 @@
     "type": "mutation",
     "id": "BENDY1",
 	"copy-from": "BENDY1",
-    "extend": {"category": [ "BAT" ], "threshreq": [ "THRESH_BAT" ],}
+    "extend": {"category": [ "BAT" ], "threshreq": [ "THRESH_BAT" ]}
   },
   {
     "type": "mutation",
