@@ -26,20 +26,19 @@
     "type": "mutation",
     "id": "FLIMSY",
 	"copy-from": "FLIMSY",
-    "category": [ "MOUSE", "ELFA", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
     "id": "BENDY1",
 	"copy-from": "BENDY1",
-    "threshreq": [ "THRESH_SLIME", "THRESH_ELFA", "THRESH_BAT" ],
-    "category": [ "SLIME", "ELFA", "BAT" ]
+    "extend": {"category": [ "BAT" ], "threshreq": [ "THRESH_BAT" ],}
   },
   {
     "type": "mutation",
     "id": "EASYSLEEPER",
 	"copy-from": "EASYSLEEPER",
-    "category": [ "MOUSE", "INSECT", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
@@ -69,57 +68,88 @@
     "type": "mutation",
     "id": "SNOUT",
     "copy-from": "SNOUT",
-    "category": [ "FELINE", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
     "id": "DEFORMED2",
 	"copy-from": "DEFORMED2",
-    "category": [ "BEAST", "URSINE", "PLANT", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
     "id": "LIGHTFUR",
 	"copy-from": "LIGHTFUR",
-    "category": [ "CHIMERA", "SPIDER", "MOUSE", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
     "id": "DEX_UP",
 	"copy-from": "DEX_UP",
-    "category": [ "INSECT", "SLIME", "ALPHA", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
     "id": "DISRESISTANT",
     "copy-from": "DISRESISTANT",
-    "category": [ "CATTLE", "RAT", "MEDICAL", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
   {
     "type": "mutation",
     "id": "PER_UP_4",
 	"copy-from": "PER_UP_4",
     "threshreq": [ "THRESH_BIRD", "THRESH_BAT" ],
-    "category": [ "BIRD", "BAT" ]
+    "extend": {"category": [ "BAT" ], "threshreq": [ "THRESH_BAT" ]}
   },
   {
     "type": "mutation",
     "id": "MYOPIC",
     "copy-from": "MYOPIC",
-    "category": [ "BEAST", "TROGLOBITE", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
+  },
+    {
+    "type": "mutation",
+    "id": "HERBIVORE",
+    "copy-from": "HERBIVORE",
+    "extend": {"category": [ "BAT" ]}
+  },
+  {
+    "type": "mutation",
+    "id": "CARNIVORE",
+	"copy-from": "CARNIVORE",
+    "extend": {"category": [ "BAT" ]}
+  },
+  {
+    "type": "mutation",
+    "id": "NECTAR_SUCC",
+    "name": { "str": "Elongated Tongue" },
+    "points": -2,
+    "visibility": 10,
+    "ugliness": 5,
+    "consume_time_modifier": 1.2,
+    "description": "Your tongue and snout have become longer, this lets you suck nectar from flowers but restricts what you can wear in your mouth. Examine the flowers to feed.",
+    "valid": false,
+    "purifiable": false,
+    "types": [ "TEETH", "MUZZLE" ],
+    "cancels": [ "MOUTH_TENTACLES" ],
+    "prereqs": [ "SNOUT" ],
+    "threshreq": [ "THRESH_BAT" ],
+    "category": [ "BAT" ],
+    "active": true,
+    "restricts_gear": [ "mouth" ],
+    "destroys_gear": true
   },
   {
     "type": "mutation",
     "id": "LIGHT_BONES",
     "copy-from": "LIGHT_BONES",
-    "category": [ "MOUSE", "BAT" ]
+    "extend": {"category": [ "BAT" ]}
   },
-    {
+  {
     "type": "mutation",
     "id": "BENDY1",
     "copy-from": "BENDY1",
-    "threshreq": [ "THRESH_SLIME", "THRESH_ELFA", "THRESH_BAT" ],
-    "category": [ "SLIME", "ELFA", "BAT" ]
+    "extend": {"category": [ "BAT" ], "threshreq": [ "THRESH_BAT" ]}
   },
   {
     "type": "mutation",
