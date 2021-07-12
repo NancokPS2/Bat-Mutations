@@ -3,13 +3,12 @@
     "type": "mutation",
     "id": "WINGS_BAT",
 	"copy-from": "WINGS_BAT",
-    "name": { "str": "Deformed Wings" },
-    "description": "You have a pair of large, leathery wings.  You can move them a little, but they are useless, and in fact put you off balance, reducing your ability to dodge slightly.",
-    "types": [ "WINGS" ],
-    "prereqs": [ "WINGS_STUB" ],
-    "dodge_modifier": -3
+	"extend": {"category": [ "BAT" ]},
+    "description": "You have a pair of fleshy wings under your arms.  Your body is too heavy to be able to fly, but you can use them to slow your descent during a fall, and will not take falling damage under any circumstances. They cause slight encumbrance in your arms.",
+    "dodge_modifier": -2,
+	"points": 2
   },
-    {
+   {
     "type": "mutation",
     "id": "BAT_EARS",
     "name": { "str": "Bat Ears" },
@@ -150,14 +149,5 @@
     "id": "BENDY1",
     "copy-from": "BENDY1",
     "extend": {"category": [ "BAT" ], "threshreq": [ "THRESH_BAT" ]}
-  },
-  {
-    "type": "mutation",
-    "id": "WINGS_BAT_MOD",
-    "copy-from": "WINGS_BIRD",
-	"description": "You have a pair of fleshy wings under your arms.  Your body is too heavy to be able to fly, but you can use them to slow your descent during a fall, and will not take falling damage under any circumstances. They cause slight encumbrance in your arms.",
-	"encumbrance_always": [ [ "arm_l", 2 ], [ "arm_r", 2 ] ],
-	"name": { "str": "Bat Wings" },
-    "category": [ "BAT" ]
   }
 ]
