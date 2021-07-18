@@ -1,5 +1,5 @@
-# Status
-**Broken**: Due to hard coded limitations, a pair of mutations from this category do not work and don't do anything outside of changing basic parameters (like ulginess), the mod will still run without errors
+# Status: Broken
+Due to hard coded limitations, a pair of mutations from this category do not work and don't do anything outside of changing basic parameters (like ulginess), the mod will still run without errors
 
 # Bat-Mutations
   A mod for cataclysm which adds a bat mutation category, working as of 0.E-7938  
